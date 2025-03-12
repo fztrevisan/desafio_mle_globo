@@ -1,3 +1,6 @@
+# script output file
+src/data/recommendations.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
