@@ -41,3 +41,24 @@ Seguir os passos para configuração de ambiente:
 2. A similaridade é calculada usando a distância entre cossenos, recomendada para vetores multidimensionais como no caso de uso de embedding
 3. O script irá retornar sempre 10 recomendações para cada matéria, conforme indicado na sessão _"Tarefa do time"_ sem um limite mínimo de similaridade
 4. Para gerar o arquivo CSV de saída, cada matéria do dataset de entrada foi passada pela função de similaridade encontrando outras 10 matérias e desconsiderando ela mesma
+
+## Resultados
+Conforme os exemplos abaixo, é possível notar que o uso do embedding fornecido com a distância entre cossenos retorna resultados satisfatórios.
+
+Matéria de entrada da função
+- Fuzuê: Luna salva a vida do filho de Preciosa 
+Matérias similares sugeridas em ordem de maior similaridade
+1. Fuzuê: Luna descobre pista importante sobre o passado de sua mãe em Paraty
+2. Fuzuê: Luna é surpreendida por Preciosa com uma faca no meio da mata
+3. Fuzuê: Preciosa ameaça com faca, é atacada por gansos e desmaia 
+4. Terra e Paixão: Angelina apanha de Irene por causa de Agatha
+5. Diogo Almeida comenta casamento de Orlando e Gilda em Amor Perfeito e derrocada da vilã: 'Esta roda vai girar'
+6. Terra e Paixão: Agatha corre risco de morte em vingança de Irene; veja fotos exclusivas
+7. Irene vibra com notícia de morte de Agatha em Terra e Paixão
+8. Amor Perfeito: Jesus resgata Frei João da morte; entenda como será a cena
+9. Terra e Paixão: Debora Ozório detalha estudo sobre abuso sexual para viver drama de Petra
+10. Larissa Manoela tem dia de malhação com o noivo André Luiz Frambach
+
+A matéria escolhida fala sobre a novela Fuzuê.
+Vemos que as 3 primeiras sugestões são da mesma novela, esgotando as sugestões disponíveis no dataset.
+Em seguida as sugestões seguem no tema "novelas" trazendo notícias de Terra e Paixão e Amor Perfeito.
