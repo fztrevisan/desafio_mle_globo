@@ -47,6 +47,7 @@ Conforme os exemplos abaixo, é possível notar que o uso do embedding fornecido
 
 Matéria de entrada da função
 - Fuzuê: Luna salva a vida do filho de Preciosa 
+
 Matérias similares sugeridas em ordem de maior similaridade
 1. Fuzuê: Luna descobre pista importante sobre o passado de sua mãe em Paraty
 2. Fuzuê: Luna é surpreendida por Preciosa com uma faca no meio da mata
