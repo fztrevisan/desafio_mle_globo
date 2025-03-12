@@ -3,15 +3,12 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
 
 from recomend_articles import read_dataset, similar_articles
 
 CURRENT_DIR = Path(__file__).resolve().parent
 DATA_DIR = CURRENT_DIR.joinpath("data")
-# colaborador@N093387 desafio_mle_globo % python -m venv .venv
-# colaborador@N093387 desafio_mle_globo % source .venv/bin/activate
-# (.venv) colaborador@N093387 desafio_mle_globo % pip install -r requirements.txt 
+
 # Set up logging to log to both console and file
 logging.basicConfig(
     level=logging.INFO,
